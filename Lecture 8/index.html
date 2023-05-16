@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+
+<body>
+    <!--
+        Html form is structure of getting data from the user.
+
+        form
+            input : 
+                    text
+                    radio button
+                    check box
+                    data picker
+                    color
+                    range
+            label : to show the information of the input.
+
+            input == id && label == for 
+                should be same
+    -->
+
+
+    <form>
+        <label for="email">Enter email id : </label>
+        <input type="text" id="email" placeholder="enter your name">
+        <br><br>
+        <label for="password">Enter password : </label>
+        <input type="text" id="password">
+        <br><br>
+        <input type="submit" value="Log In">
+
+        <br><br>
+        <label for="maleRadio">Male</label>
+        <input type="radio" name="radioButton" id="maleRadio">
+
+        <label for="otherRadio">Female</label>
+        <input type="radio" name="radioButton" id="otherRadio">
+
+        <label for="otherRadio">Other</label>
+        <input type="radio" name="radioButton" id="otherRadio">
+
+        <br><br>
+
+        <input type="checkbox" id="chkbox1" name="chkbox1">
+        <label for="chkbox1">English</label>
+        <br>
+        <input type="checkbox" id="chkbox2" name="chkbox1">
+        <label for="chkbox2">Hindi</label>
+        <br>
+        <input type="checkbox" id="chkbox3" name="chkbox1">
+        <label for="chkbox3">Gujarati</label>
+        <br>
+        <input type="checkbox" id="chkbox4" name="chkbox1">
+        <label for="chkbox4">French</label>
+
+        <br><br>
+
+        <label for="date">Select Date :</label>
+        <input type="datetime-local">
+
+        <br/>
+        <br/>
+
+        
+        <label for="password">Enter password :- </label>
+        <input type="password" id="password" name="psd">
+
+        <br/>
+        <br/>
+        
+        <input type="image" src="/download.jpg" name="img" id="ighg" alt="img is not able to see">
+    </form>
+
+
+
+</body>
+
+</html>
