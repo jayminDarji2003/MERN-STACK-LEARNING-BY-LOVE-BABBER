@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project 1</title>
+</head>
+
+<body>
+    <h1>Event Registration :- </h1>
+    <br />
+
+    <form>
+        <fieldset>
+
+            <label for="name">Name :</label>
+            <br/>
+            <input type="text" id="name" name="name">
+            <br/>
+            <br/>
+
+            <label for="email">Email :</label>
+            <br/>
+            <input type="email" id="email" name="email">
+            <br/>
+            <br/>
+
+            <label for="phone">Phone :</label>
+            <br/>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br/>
+            <br/>
+
+            <label for="occupation">Occupation :</label>
+            <br/>
+            <select name="occupation" id="occupation">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+            <br/>
+            <br/>
+
+            <label for="interest">Type of Interest :</label>
+            <br/>
+            <input type="checkbox" id="html" name="checkbox">
+            <label for="html">HTML</label>
+            <br/>
+            <input type="checkbox" id="css" name="checkbox">
+            <label for="css">CSS</label>
+            <br/>
+            <input type="checkbox" id="js" name="checkbox">
+            <label for="js">JavaScript</label>
+            <br/>
+            <br/>
+
+            <label for="comment">Comments :</label>
+            <br/>
+            <textarea name="comment" id="content" cols="30" rows="10"></textarea>
+            <br/>
+            <br/>
+
+            <input type="submit" value="Register">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
