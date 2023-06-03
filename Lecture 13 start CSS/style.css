@@ -1,0 +1,25 @@
+h1{
+    font-size: smaller;
+    text-align: center;
+    background-color: black;
+}
+
+#article1{
+    color:blue;
+}
+#article2{
+    color:rgb(191, 191, 233);
+}
+#article3{
+    color:rgb(100, 205, 107);
+}
+
+.para{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
